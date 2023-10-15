@@ -20,7 +20,7 @@ export default function Home() {
       <h1 className="bg-white p-3 rounded text-black">
         Here is my todo that are fetched
       </h1>
-      {todos.map((todo, index) => {
+      {todos.map((todo: Todo, index) => {
         return (
           <div key={index}>
             <h1>{todo.title}</h1>
